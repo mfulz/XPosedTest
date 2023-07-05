@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <uses-sdk android:targetSdkVersion="33" />
+
+  <application android:label="@string/app_name">
+    <meta-data
+        android:name="xposedmodule"
+        android:value="true" />
+    <meta-data
+        android:name="xposeddescription"
+        android:value="Next generation privacy xposed module" />
+    <meta-data
+        android:name="xposedminversion"
+        android:value="82" />
+  </application>
+</manifest>
